@@ -11,6 +11,8 @@ import (
 	"os"
 	"strings"
 	"time"
+
+	"github.com/redis/go-redis/v9"
 )
 
 // --- 1. СТРУКТУРИ ДЛЯ ВХІДНОГО JSON ВІД OLX (Redis) ---
